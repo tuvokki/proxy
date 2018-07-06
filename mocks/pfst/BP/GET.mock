@@ -1,0 +1,49 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+  "user":"SUPERVISOR",
+  "licenseState":1,
+  "urls":{
+    "NovaBIMModelService":"../../BjkRPMmIpjUTj7vD9L60DqSYqY_nIkBVttMC5k3Gvvk0BDe2DOVhmQ/Bjk92/nIk2f/0Dq4c/kBVee",
+    "NovaModuleService":"../../BjkRPMmIpjUTj7vD9L60DnAzi4mwClxJRIqgOp5Dad4/Bjk92/RPMbe/DnA66/MmIe8"
+  },
+  "bimLicense":true,
+  "modules":[
+    {
+      "image":"icon-wrench",
+      "title":"My jobs",
+      "startUrl":"pfst_pmfs/BP/",
+      "name":"pmfs_module"
+    },
+    {
+      "image":"icon-wrench",
+      "title":"Materials",
+      "startUrl":"pfst_stock/BP/",
+      "name":"stock_module"
+    },
+    {
+      "image":"icon-balloon_cloud",
+      "title":"Service request",
+      "startUrl":"pfst_request/BP/",
+      "name":"request_module"
+    },
+    {
+      "image":"icon-wrench",
+      "title":"Assets",
+      "startUrl":"pfst_asset/BP/",
+      "name":"asset_module"
+    }
+  ],
+  "dataModules":[
+
+  ],
+  "version":"2017.10.26-18.03.16",
+  "secret_key":"nullnull",
+  "session_id":"4746",
+  "ios_identifier":"Nova",
+  "android_identifier":"Nova",
+  "update":"now",
+  "content_url":"https://emsddevelopment-prod.pdit.cloud/wicket/resource/nl.planon.pssm.nova.engine.wicket.NovaWsPage/nova_app",
+  "release":"2017.10.26-18.03.16"
+}
